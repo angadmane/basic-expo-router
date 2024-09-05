@@ -4,7 +4,7 @@ import React from 'react'
 export default function Page() {
   return (
     <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
-      <Text style={{fontSize:18}}>Favourites Page</Text>
+      <Text style={{fontSize:18}}>Home Page</Text>
     </View>
   )
 }

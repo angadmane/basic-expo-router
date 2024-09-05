@@ -7,13 +7,13 @@ import { DrawerToggleButton } from '@react-navigation/drawer';
 export default function _layout() {
   return (
    <Tabs screenOptions={{headerLeft: () => <DrawerToggleButton tintColor='#000' />}}>
-    <Tabs.Screen name='feed' options={{
+    <Tabs.Screen name='home' options={{
       tabBarIcon: ({color}) => (
         <Feather name="list" size={24} color={color} />
       ),
-      tabBarLabel: 'Feed',
-      headerTitle: 'Feed',
-      headerRight: () => <Button onPress={() => router.push('feed/new')} title='Add Post' />
+      tabBarLabel: 'Home',
+      headerTitle: 'Home',
+      headerRight: () => <Button onPress={() => router.push('home/new')} title='list Add' />
     }} />
     <Tabs.Screen name='profile' options={{
       tabBarIcon: ({color}) => (
